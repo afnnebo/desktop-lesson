@@ -1,7 +1,16 @@
-DZ = 12 # Колличество выполненных д.з.
-print(DZ) # выводим на экран (в консоль).
-Taime_o_clok = 1.5 # Количество затраченных часов
-print(Taime_o_clok) # выводим на экран (в консоль).
-Kurs = 'Python' # Название курса
-print(Kurs) # выводим на экран (в консоль).
-print (Kurs, DZ, Taime_o_clok, Taime_o_clok/DZ) # Вычисляем среднее время на одно задание
+name = 'Kurs:'
+print(name)# Колличество выполненных д.з.
+nazvanie = 'Python, ' # Название курса
+print(nazvanie)
+dz ='Vsego zadah: '
+print(dz)
+haur= (12)
+print(haur)# выводим на экран (в консоль).
+vsego ='zatracheno chasov: '
+print(vsego)
+Taime = (1.5) # Количество затраченных часов
+print(Taime) # выводим на экран (в консоль).
+midl = 'srednee vremy vipolneniya'
+print(midl)
+print(name, nazvanie, dz, haur, vsego ,  Taime, midl,  Taime/haur)
+
